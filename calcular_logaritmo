@@ -1,0 +1,33 @@
+import math
+import os
+
+def calcular_logaritmo(numero, base):
+    if numero <= 0:
+        raise ValueError("O número deve ser maior que 0.")
+    if base <= 0 or base == 1:
+        raise ValueError("A base deve ser maior que 0 e diferente de 1.")
+    
+    logaritmo = math.log(numero) / math.log(base)
+    return logaritmo
+
+
+while True:
+    try:
+        print('Digite o valor:')
+        numero = float(input())
+        print('Digite o valor da base:')
+        base = float(input())
+        if not int:
+            raise ValueError("Não é valor")
+    except ValueError as e:
+        os.system('clear')
+        print("Valor inválido:", e)
+    else:
+        break
+
+try:
+    os.system('clear')
+    resultado = calcular_logaritmo(numero, base)
+    print(f'O logaritmo de {numero} na base {base} é: {resultado}')
+except ValueError as e:
+    print(e)
