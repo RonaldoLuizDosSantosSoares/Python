@@ -1,0 +1,16 @@
+# lista 1 de exercicios da faculdade
+
+import os
+
+print('Digitar o preço de um carro')
+preco = float(input())
+
+while preco <= 0:
+    os.system('clear')
+    print('Numero tem que ser positivo')
+    preco = float(input())
+    
+    
+reajuste = preco + (preco * 0.09)
+
+print(f'O preco sofreu um ajuste de 9% e ficou: {reajuste:,.2f}')
