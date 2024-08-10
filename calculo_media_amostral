@@ -1,0 +1,12 @@
+print('Digite os valores separados com virgula')
+
+numeros = list(map(float, input().split(',')))
+
+def calcular_media_amostral(numeros):
+    soma = sum(numeros)
+    lista_ordenada = sorted(numeros)
+    n = len(lista_ordenada)
+    med = soma / n
+    return med
+    
+print(calcular_media_amostral(numeros))
