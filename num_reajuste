@@ -1,0 +1,16 @@
+# lista 1 de exercicios da faculdade
+
+import os
+
+print('Digitar um numero inteiro')
+numero = float(input())
+
+while numero <= 0:
+    os.system('clear')
+    print('Numero tem que ser positivo')
+    numero = float(input())
+    
+    
+reajuste = numero + (numero * 0.10)
+
+print(f'O numero sofreu um ajuste de 10% e ficou: {reajuste}')
