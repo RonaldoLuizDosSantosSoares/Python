@@ -1,9 +1,0 @@
-# lista 1 de exercicios da faculdade
-
-print('Digitar um numero inteiro')
-numero = int(input())
-
-pre = numero - 1
-pro = numero + 1
-
-print(f'Numero antecessor {pre} e Numero Sucessor {pro}')
