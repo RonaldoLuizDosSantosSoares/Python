@@ -1,18 +1,12 @@
 print('Digite os valores separados com virgula')
+
 numeros = list(map(float, input().split(',')))
 
-def calcular_mediana(numeros):
- 
+def calcular_media_amostral(numeros):
+    soma = sum(numeros)
     lista_ordenada = sorted(numeros)
     n = len(lista_ordenada)
-    media = n // 2
+    med = soma / n
+    return med
 
-    if n % 2 == 0: 
-      
-      return (lista_ordenada[media - 1] + lista_ordenada[media]) / 2      
-    
-    else:
-      
-      return lista_ordenada[media]
-      
-print(calcular_mediana(numeros))
+print(calcular_media_amostral(numeros))
