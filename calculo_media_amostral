@@ -1,5 +1,4 @@
 print('Digite os valores separados com virgula')
-
 numeros = list(map(float, input().split(',')))
 
 def calcular_media_amostral(numeros):
