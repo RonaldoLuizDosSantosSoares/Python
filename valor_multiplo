@@ -1,0 +1,13 @@
+# lista 1 de exercicios da faculdade
+
+print ('Entre com o valor 1')
+v1 = int(input())
+print ('Entre com o valor 2')
+v2 = int(input())
+ 
+
+if v1 % v2 == 0:
+    print('São multiplos')
+    
+else:
+    print('Não são multiplos')
