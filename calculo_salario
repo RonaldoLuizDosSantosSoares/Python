@@ -1,0 +1,30 @@
+# lista 1 de exercicios da faculdade
+
+import os
+
+print('Digite o valor da aula')
+aula = float(input())
+
+while aula <= 0:
+    os.system('clear')
+    print('Sei que a situação tá ruim, mas nem tanto!')
+    aula = float(input())
+    
+    
+print('Digite o desconto do INSS')
+desconto = int(input())
+
+while desconto <= 0:
+    os.system('clear')
+    print('Sei que a situação tá ruim, mas nem tanto!')
+    desconto = int(input())
+
+
+desconto = desconto/100
+
+aula = aula * 30
+
+reajuste = aula - (aula * desconto)
+
+os.system('clear')
+print(f'O salario liquido do professor e de: R${reajuste:,.2f}')
