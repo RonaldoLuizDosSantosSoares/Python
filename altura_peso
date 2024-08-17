@@ -1,3 +1,5 @@
+# exercicio 1 da lista de algoritmos da faculdade
+
 print ('informe a altura e o peso')
 altura = float(input())
 peso = float(input())
