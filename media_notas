@@ -1,0 +1,28 @@
+# exercicio 1 da lista de algoritmos da faculdade
+
+print ('Digite o valor da p1, p2 e p3')
+p1 = int(input())
+p2 = int(input())
+p3 = int(input())
+
+ME = (p1 + p2 + p3)/3
+MA = (p1 + p2 * 2 + p3 * 3 + ME)/7
+
+if MA > 9:
+    conceito = 'A'
+    
+if MA >= 7.5 and MA < 9:
+    conceito = 'B'
+    
+if MA >= 6 and MA < 7.5:
+    conceito = 'C'
+    
+if MA >= 4 and MA < 6:
+    conceito = 'D'
+    
+if MA < 4:
+    conceito = 'E'
+
+
+
+print (f'A media de aproveitamento do aluno é: {MA} e o conceito foi: {conceito}')
