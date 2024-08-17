@@ -1,3 +1,5 @@
+# exercicio 1 da lista de algoritmos da faculdade
+
 print ('Digite o preco da fabrica')
 preco = float(input())
 
