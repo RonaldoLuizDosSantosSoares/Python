@@ -1,0 +1,32 @@
+print ('informe a altura e o peso')
+altura = float(input())
+peso = float(input())
+
+if altura < 120 and peso <= 60:
+    print('Seu peso é categoria A')
+    
+if altura >= 120 and altura < 170 and peso <= 60:
+    print('Seu peso é categoria B')
+    
+if altura > 170 and peso <= 60:
+    print('Seu peso é categoria C')
+    
+    
+if altura < 120 and peso > 60 and peso <= 90:
+    print('Seu peso é categoria D')
+    
+if altura >= 120 and altura < 170 and peso > 60 and peso <= 90:
+    print('Seu peso é categoria E')
+    
+if altura > 170 and peso > 60 and peso <= 90:
+    print('Seu peso é categoria F')
+    
+
+if altura < 120 and peso > 90:
+    print('Seu peso é categoria G')
+    
+if altura >= 120 and altura < 170 and peso > 90:
+    print('Seu peso é categoria H')
+    
+if altura > 170 and peso > 90:
+    print('Seu peso é categoria I')
