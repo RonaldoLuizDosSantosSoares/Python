@@ -1,0 +1,17 @@
+# exercicio 1 da lista de algoritmos da faculdade
+
+print ('informe o sexo e a idade')
+sexo = str(input())
+idade = int(input())
+
+if sexo == 'm' and idade >= 30:
+    print('O abono ficaria com 200 reais')
+    
+if sexo == 'm' and idade < 30:
+    print('O abono ficaria com 120 reais')
+    
+if sexo == 'f' and idade >= 30:
+    print('O abono ficaria com 220 reais')
+    
+if sexo == 'f' and idade < 30:
+    print('O abono ficaria com 130 reais')
