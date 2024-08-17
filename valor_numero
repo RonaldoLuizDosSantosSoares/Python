@@ -1,0 +1,13 @@
+# exercicio 1 da lista de algoritmos da faculdade
+
+print('Digite um numero')
+num = int(input())
+
+if num < 0:
+    print('Numero negativo')
+    
+if num == 0:
+    print('Numero é zero')
+    
+if num > 0:
+    print('Numero é positivo')
