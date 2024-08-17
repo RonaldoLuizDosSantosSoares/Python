@@ -1,0 +1,12 @@
+print ('Digite o preco da fabrica')
+preco = float(input())
+
+print('Digite o percentual de lucro')
+lucro = int(input())
+
+print('Digite o percentual de impostos')
+imposto = int(input())
+
+preco_final = (lucro/100 * preco) + preco + (imposto/100 * preco)
+
+print(f'Preco do carro para o consumidor: {preco_final:,.2f}')
