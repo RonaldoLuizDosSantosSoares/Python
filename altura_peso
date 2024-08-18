@@ -1,4 +1,4 @@
-# exercicio 1 da lista de algoritmos da faculdade
+# 25.	Faça um programa que receba a altura e o peso de uma pessoa. De acordo com a tabela a seguir e mostre qual a classificação dessa pessoa.
 
 print ('informe a altura e o peso')
 altura = float(input())
