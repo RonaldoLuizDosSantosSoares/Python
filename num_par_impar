@@ -1,10 +1,21 @@
-# exercicio 1 da lista de algoritmos da faculdade
+'''
 
-print('Digite um numero:')
-numero = int(input())
+16.	Receba dois valores a e b e os escreve com a mensagem: "São pares " ou "São ímpares".
+
+'''
+
+import os
+
+print('Digite dois numeroa:')
+num1 = int(input())
+num2 = int(input())
        
-if numero % 2 == 0:
-    print('Esse numero é par')
+if num1 % 2 == 0:
+    print(f'O numero: {num1} é par')
 else:
-    print('Esse numero é impar')
-
+    print(f'O numero: {num1} é impar')
+    
+if num2 % 2 == 0:
+    print(f'O numero: {num2} é par')
+else:
+    print(f'O numero: {num2} é impar')
