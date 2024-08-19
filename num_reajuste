@@ -1,4 +1,8 @@
-# lista 1 de exercicios da faculdade
+'''
+
+2.	Receba via teclado um  número positivo e exiba esse valor com reajuste de 10%.
+
+'''
 
 import os
 
