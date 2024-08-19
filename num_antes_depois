@@ -1,4 +1,8 @@
-# lista 1 de exercicios da faculdade
+'''
+
+1.	Receba via teclado um número inteiro e exiba o seu sucessor e seu antecessor. 
+
+'''
 
 print('Digitar um numero inteiro')
 numero = int(input())
