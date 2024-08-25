@@ -1,0 +1,51 @@
+'''
+
+19. - A FATEC RUBENS LARA faz o pagamento de seus professores por hora/aula.
+Faça um algoritmo que calcule e exiba o salário de um professor.
+Sabe-se que o valor da hora/aula segue a tabela abaixo:
+Professor Nível 1 R$55,00 por hora/aula
+Professor Nível 2 R$67,00 por hora/aula
+Professor Nível 3 R$78,00 por hora/aula.
+
+type(x) == int # False
+isinstance(x, int) # True
+
+'''
+
+import os
+
+lvl_1 = 55.00
+lvl_2 = 67.00
+lvl_3 = 78.00
+
+print("Digite o nome do professor")
+nm_prof = str(input())
+    
+os.system('clear')
+print("Digite o nivel do professor")
+lvl_prof = int(input())
+
+while lvl_prof >= 4 or lvl_prof <= 0:
+    os.system('clear')
+    print("O nivel nao pode ser 0 ou maior igual a 4! Digite novamente!")
+    lvl_prof = int(input())
+    
+os.system('clear')
+print("Digite a hora trabalhada")
+hrs = int(input())
+
+
+if lvl_prof == 1:
+    salario = lvl_1 * hrs
+    os.system('clear')
+    print(f"O salario do professor {nm_prof} é de: {salario:,.2f}")
+    
+elif lvl_prof == 2:
+    salario = lvl_2 * hrs
+    os.system('clear')
+    print(f"O salario do professor {nm_prof} é de: {salario:,.2f}")
+    
+elif lvl_prof == 3:
+    salario = lvl_3 * hrs
+    os.system('clear')
+    print(f"O salario do professor {nm_prof} é de: {salario:,.2f}")
